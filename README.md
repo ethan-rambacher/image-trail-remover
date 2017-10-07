@@ -15,6 +15,8 @@ My proposed algorithm for detection is as follows:
 4. Filter out white areas determined to be stars, not trails.
 5. Somehow "tag" or record location of all areas determined to be trails.
 
+To begin, the detection code will be prototyped in Python. For performance and integration with the removal system, this may ultimately be translated to C++ or Java, or even JavaScript or Lua for Adobe plugins.
+
 ## Removal
 So far a few options have been brainstormed for removal:
 1. Lightroom script/plugin
